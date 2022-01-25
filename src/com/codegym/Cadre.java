@@ -50,6 +50,6 @@ public class Cadre {
 
     @Override
     public String toString() {
-        return "Họ và tên: " + this.name + ", Ngày sinh: " + this.birthDay + ", giới tính: " + this.sex + ", địa chỉ: " + this.address;
+        return  this.name + ", " + this.birthDay + ", " + this.sex + ", " + this.address;
     }
 }

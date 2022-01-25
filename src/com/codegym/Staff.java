@@ -25,6 +25,6 @@ public class Staff extends Cadre {
 
     @Override
     public String toString() {
-        return "Nhân viên. " + super.toString() + ", công việc: " + this.work;
+        return super.toString() + ", " + this.work;
     }
 }

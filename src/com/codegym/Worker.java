@@ -24,6 +24,6 @@ public class Worker extends Cadre {
 
     @Override
     public String toString() {
-        return "Công nhân. "+ super.toString() + ", bậc: "+this.level;
+        return super.toString() + ", "+this.level;
     }
 }

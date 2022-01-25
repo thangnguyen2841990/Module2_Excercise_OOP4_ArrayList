@@ -25,6 +25,6 @@ public class Engineer extends Cadre {
 
     @Override
     public String toString() {
-        return "Kỹ sư. "+ super.toString() + ", ngành đào tạo: "+this.majors;
+        return super.toString() + ", "+this.majors;
     }
 }
